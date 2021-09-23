@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Popup</title>
+    <style>
+      .popup {
+        display: none;
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #f00;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="popmeUp()" id="popup-trigger">Open Popup</button>
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        Awesome <br />
+        Now you can become a part of our friendly community <br />
+        <button>Join Us</button>
+        <button id="popup-close">Close</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!-- Method 1: Onclick attribute -->
+<!-- Method 1: Onclick listener -->

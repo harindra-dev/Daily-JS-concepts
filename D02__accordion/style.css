@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: lato, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.accordion-wrapper {
+  width: 700px;
+  margin: 2rem;
+}
+
+.accordion {
+  border: 1px solid #e2e2e2;
+  width: 100%;
+}
+
+.accordion-toggler {
+  padding: 0.5rem 1.25rem;
+  background-color: #555555;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 0.5rem 1.25rem;
+  background-color: #e2e2e2;
+}
+
+.accordion-toggler + .accordion-content {
+  display: none;
+}
+
+.accordion-toggler.open + .accordion-content {
+  display: block;
+}
