@@ -19,4 +19,6 @@ for (let i = 0; i < accordionTogglers.length; i++) {
 
 // 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
 
-//  git clone https://harindra-dev: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@github.com/harindra-dev/Daily-JS-concepts.git
+// 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
+
+//  git clone https://harindra-dev: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@github.com/harindra-dev/Daily-JS-concepts.git
