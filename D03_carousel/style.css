@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel_wrapper {
+  width: 100%;
+  display: block;
+}
+
+.carousel_wrapper .carousel {
+  width: 100%;
+  display: block;
+}
+
+.carousel_wrapper .carousel .__content .corousel__item {
+  width: 100%;
+}
+
+.carousel_wrapper .carousel .__content .corousel__item img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.carousel_wrapper .carousel .__content .corousel__item:first-child {
+  display: block;
+}
